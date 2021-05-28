@@ -1,0 +1,7 @@
+DATA PREP
+
+- All static maps cut to size and stored in laea in QGIS
+
+- 2.5x2.5 km grid created with 1000m buffer from HU border based on AGROTOPO outline. grids were kept whole     on edges, this may need to be revised
+    clc clipped with grid, nösztép is not, therefore edges may have no data
+- rasters GIS operations in r
